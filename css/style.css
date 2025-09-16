@@ -1,0 +1,150 @@
+/* All common css start */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+ul,
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+ul,
+li {
+  margin: 0%;
+  padding: 0%;
+  line-height: 0.8;
+}
+/* All common css end */
+
+/* Slick Slider Part start  */
+#slickSliderPart {
+  /* padding-bottom: 50px; */
+}
+.slickSliderOne {
+  background: url(../images/Car1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slickSliderTow {
+  background: url(../images/Bicycle1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slickSliderThree {
+  background: url(../images/Bike1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.overlyOne {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 300px 0;
+}
+.overlyOne h3 {
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.overlyTwo {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 300px 0;
+}
+.overlyTwo h3 {
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.overlyThree {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 300px 0;
+}
+.overlyThree h3 {
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.arrows {
+  font-size: 50px;
+  color: green;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+.next {
+  font-size: 50px;
+  color: green;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+ul.slick-dots {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  display: flex;
+  transform: translateX(-50%);
+}
+#slick-slide-control00 {
+  padding: 4px 6px;
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 50px;
+  border: none;
+}
+#slick-slide-control01 {
+  padding: 4px 6px;
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 50px;
+  border: none;
+}
+#slick-slide-control02 {
+  padding: 4px 6px;
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 50px;
+  border: none;
+}
+/* Slick Slider Part end  */
+
+/* MixitupPart start  */
+#mixitUpPart {
+  padding-bottom: 50px;
+  background-color: aqua;
+}
+button {
+  margin-left: 20px;
+}
+/* MixitupPart end  */
+.back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 25px;
+}
+.back-to-top i {
+  font-size: 50px;
+  color: red;
+}
+#aosAnimatePart {
+  background-color: darkolivegreen;
+}
