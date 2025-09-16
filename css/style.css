@@ -97,33 +97,35 @@ li {
   transform: translateY(-50%);
   z-index: 10;
 }
-ul.slick-dots {
+.slickSliders {
+  position: relative;
+}
+
+.slickSliders ul {
   position: absolute;
-  left: 50%;
   bottom: 20px;
-  display: flex;
+  left: 50%;
   transform: translateX(-50%);
+  display: flex;
 }
-#slick-slide-control00 {
-  padding: 4px 6px;
-  background-color: #ffffff;
-  color: #000;
-  border-radius: 50px;
-  border: none;
+
+.slickSliders li {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #808080;
+  margin-right: 10px;
 }
-#slick-slide-control01 {
-  padding: 4px 6px;
-  background-color: #ffffff;
-  color: #000;
-  border-radius: 50px;
-  border: none;
+
+.slickSliders li button {
+  opacity: 0;
+  visibility: hidden;
 }
-#slick-slide-control02 {
-  padding: 4px 6px;
-  background-color: #ffffff;
-  color: #000;
-  border-radius: 50px;
-  border: none;
+
+.slick-dots .slick-active {
+  background: blue;
+  border: 1px solid red;
+  scale: 1.7;
 }
 /* Slick Slider Part end  */
 
